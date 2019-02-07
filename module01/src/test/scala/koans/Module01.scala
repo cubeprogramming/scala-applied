@@ -9,6 +9,8 @@ import org.scalatest.SeveredStackTraces
 class Module01 extends KoanSuite with Matchers with SeveredStackTraces {
 
   test ("Something works") {
+    //Two ways of writing the same thing
+    //1.should(be(1))
     1 should be (1)
   }
 }
